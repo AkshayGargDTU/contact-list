@@ -16,11 +16,11 @@
                 {%>
                     <li class="contact">
                     <div class="details">
-                        <p><%=i.name%></p>
-                    <p><%=i.phone%></p>
+                        <p><%= i.name %></p>
+                    <p><%= i.phone%></p>
                     </div>
                     <div class="delete-button">
-                        <a href="/delete-contact/<%=i.phone%>"><i class="fas fa-window-close"></i>
+                        <a href="/delete-contact/<%=i._id%>"><i class="fas fa-window-close"></i>
 
                         </a>
                     </div>
